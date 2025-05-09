@@ -17,13 +17,19 @@ Time Series Trend: Monthly profit fluctuations, highlighting low-profit months (
 Product-Level Insights: Profitability by Sub-Category (Printers, Bookcases, Sarees, etc.)
 
 📁 **Files Included**
+
 E-commerce_Sales.pbix: Power BI report file with all visualizations.
-Orders.xlsx & Details.xlsx: Source datasets including transaction records and product information.
+
+Orders & Details (xlsx & csv format): Source datasets including transaction records and product information.
 
 💡 **Tools & Techniques Used**
+
 Power BI DAX and slicers for dynamic filtering
+
 Pie, Bar, and Column charts for clear visual storytelling
+
 Drill-down capabilities for interactive exploration
+
 Data cleaning and modeling in Power BI using relationships between tables
 
 📌 **Purpose**
