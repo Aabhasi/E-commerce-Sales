@@ -1,41 +1,58 @@
-# E-commerce Sales
 
-This Power BI project presents an interactive dashboard to analyze e-commerce performance using sales data from multiple states in India. The dashboard enables business stakeholders to identify sales trends, customer behavior, and profitability across various dimensions.
+# 📊 E-commerce Sales Dashboard (Power BI)
 
-🔍 **Key Features**
+This Power BI project delivers an interactive dashboard to explore and evaluate e-commerce performance across states, categories, and customer segments in India. The project is built using clean data modeling, DAX calculations, and user-friendly visualizations to help business stakeholders make informed decisions.
 
-Sales KPIs: Visual summary of Total Sales (438K), Profit (37K), Quantity Sold (5615), and Average Order Value (121.01K).
+---
 
-Geographical Insights: Sales by State (Maharashtra leads), Customer Segmentation, and Regional Contributions.
-
-Category & Payment Analysis:
-Quantity breakdown by category (Clothing 63%, Electronics 21%, Furniture 17%)
-Payment mode usage insights (COD dominates at 44%)
-
-Time Series Trend: Monthly profit fluctuations, highlighting low-profit months (July, December).
-
-Product-Level Insights: Profitability by Sub-Category (Printers, Bookcases, Sarees, etc.)
-
-📁 **Files Included**
-
-E-commerce_Sales.pbix: Power BI report file with all visualizations.
-
-Orders & Details (xlsx & csv format): Source datasets including transaction records and product information.
-
-💡 **Tools & Techniques Used**
-
-Power BI DAX and slicers for dynamic filtering
-
-Pie, Bar, and Column charts for clear visual storytelling
-
-Drill-down capabilities for interactive exploration
-
-Data cleaning and modeling in Power BI using relationships between tables
-
-📌 **Purpose**
-This dashboard was designed to help stakeholders and business analysts derive actionable insights from sales data, optimize product offerings, and evaluate seasonal performance patterns.
+<img width="1162" alt="Screenshot 2025-05-08 at 11 45 33 PM" src="https://github.com/user-attachments/assets/58651c88-b43c-4f0b-9fc1-b200d0a1d769" />
 
 
-<img width="1033" alt="Screenshot 2025-05-08 at 11 49 12 PM" src="https://github.com/user-attachments/assets/dcf0c0b5-9959-4bdb-8416-486a8c594d82" />
+## 🎯 Objectives
 
+- Track key sales performance metrics such as total revenue, profit, and average order value.
+- Understand customer purchasing behavior by category, payment mode, and geography.
+- Analyze seasonal profitability trends to support campaign planning.
+
+---
+
+## 🛠️ Tools & Techniques
+
+- **Power BI** for data modeling and interactive dashboards.
+- **DAX (Data Analysis Expressions)** to create key KPIs such as:
+  - `Average Order Value = DIVIDE([Sum of Amount], [Sum of Quantity])`
+  - `Profit Margin = DIVIDE([Sum of Profit], [Sum of Amount])`
+- Dynamic slicers for state and quarter-based filtering.
+- Pie charts, bar charts, and time-series visualizations for deeper insights.
+
+---
+
+## 🔍 Key Insights
+
+- **Sales Performance**:
+  - Total Sales: ₹438K | Profit: ₹37K | Orders: 5,615 | Avg. Order Value: ₹121K
+- **Top Performing Segments**:
+  - Categories: Clothing (63% of quantity), followed by Electronics and Furniture.
+  - Payment Methods: COD dominates with 44% of total orders.
+  - States: Maharashtra contributes the highest sales.
+- **Profitability**:
+  - Most profitable months: Jan–Apr, Sept–Nov.
+  - Losses observed in July and December.
+  - Sub-categories like Printers and Bookcases generate the highest profit.
+
+---
+
+## 📁 Repository Contents
+
+- `E-commerce_Sales.pbix` – Interactive Power BI report with DAX and slicers.
+- `Orders.xlsx` & `Details.xlsx` – Cleaned transactional and product datasets.
+
+---
+
+## 💡 Impact
+
+The dashboard empowers analysts, category managers, and business leaders to:
+- Identify profitable segments and underperforming months.
+- Adjust product mix, payment policies, and state-specific marketing.
+- Gain a holistic view of e-commerce sales performance.
 
