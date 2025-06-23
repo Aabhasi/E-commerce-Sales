@@ -42,13 +42,6 @@ This Power BI project delivers an interactive dashboard to explore and evaluate 
 
 ---
 
-## 📁 Repository Contents
-
-- `E-commerce_Sales.pbix` – Interactive Power BI report with DAX and slicers.
-- `Orders.xlsx` & `Details.xlsx` – Cleaned transactional and product datasets.
-
----
-
 ## 💡 Impact
 
 The dashboard empowers analysts, category managers, and business leaders to:
